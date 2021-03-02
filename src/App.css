@@ -1,3 +1,7 @@
+* {
+  font-family: monospace;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.details {
+  margin: 25px;
+}
+
+#root, #detaildisplay {
+  margin: 25%;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: -1;
+  background-color: white;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+.btn:hover {
+  border: 2px solid black;
+}
+.submitButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  background-color: lightgray;
+  z-index: -2;
+}
+
+#All, .toggle {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+#Active, .delete {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  margin: 0 5px;
+}
+#Completed, .goback {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  margin: 0 5px;
+}
+
+.todo-app, .detail-div {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+th {
+  border: 1px solid black;
+  padding: 0px;
+  background-color: black;
+  z-index: -1;
+  color: silver;
+}
+
+.table {
+  width: 100%;
+  padding: 10px;
+}
+
+.pendingTodo {
+  background-color: red;
+  color:white;
+}
+
+.completedTodo {
+  background-color: green;
+  color: white;
 }
