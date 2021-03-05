@@ -1,11 +1,13 @@
 import { ADD_TODO, TOGGLE_TODO, DELETE_TODO } from "../actionTypes";
 
-const initialState = [{
-  id: 0,
-  content: "Add Todos!",
-  date: new Date().toDateString(),
-  completed: false  
-}];
+const initialState = [
+  {
+    id: 0,
+    content: "Add Todos!",
+    date: new Date().toDateString(),
+    completed: false,
+  },
+];
 
 export default function (state = initialState, action) {
   switch (action.type) {
@@ -17,17 +19,19 @@ export default function (state = initialState, action) {
           id,
           content,
           date,
-          completed: false
-        }
-      ]
+          completed: false,
+        },
+      ];
     }
     case TOGGLE_TODO: {
       const { id } = action.payload;
-      return state.map(todo => (todo.id === id) ? {...todo, completed: !todo.completed} : todo)       
+      return state.map((todo) =>
+        todo.id === id ? { ...todo, completed: !todo.completed } : todo
+      );
     }
     case DELETE_TODO: {
       const { id } = action.payload;
-      return state.filter(todo => todo.id !== id)      
+      return state.filter((todo) => todo.id !== id);
     }
     default:
       return state;

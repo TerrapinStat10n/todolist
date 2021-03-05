@@ -8,7 +8,7 @@ class AddTodo extends React.Component {
     this.state = { input: "" };
   }
 
-  updateInput = input => {
+  updateInput = (input) => {
     this.setState({ input });
   };
 
@@ -21,7 +21,7 @@ class AddTodo extends React.Component {
     return (
       <div>
         <input
-          onChange={e => this.updateInput(e.target.value)}
+          onChange={(e) => this.updateInput(e.target.value)}
           value={this.state.input}
         />
         <button className="add-todo" onClick={this.handleAddTodo}>
@@ -32,7 +32,4 @@ class AddTodo extends React.Component {
   }
 }
 
-export default connect(
-  null,
-  { addTodo }
-)(AddTodo);
+export default connect(null, { addTodo })(AddTodo);
