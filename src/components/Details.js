@@ -11,28 +11,32 @@ const Details = ({ allTodos, toggleTodo, deleteTodo }) => {
         <div className="detail-div">
             <h1>Todo Details</h1>
             <table className="table">
-                <tr>
-                    <th>Task</th>
-                    <th>Id #</th>
-                    <th>Status</th>
-                    <th>Created At</th>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Id #</th>
+                        <th>Status</th>
+                        <th>Created At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>
+                        {todo.content}
+                    </td>
+                    <td>
+                        {todo.id}
+                    </td>
+                    <td>
+                        <button onClick={() => toggleTodo(todo.id)} className={ !todo.completed ? "pendingTodo" : "completedTodo"}>
+                            {!todo.completed ? "Active" : "Completed"}
+                        </button> 
+                    </td>
+                    <td>
+                        {todo.date}
+                    </td>
                 </tr>
-                <tr>
-                <td>
-                    {todo.content}
-                </td>
-                <td>
-                    {todo.id}
-                </td>
-                <td>
-                    <button onClick={() => toggleTodo(todo.id)} className={ !todo.completed ? "pendingTodo" : "completedTodo"}>
-                        {!todo.completed ? "Active" : "Completed"}
-                    </button> 
-                </td>
-                <td>
-                    {todo.date}
-                </td>
-            </tr>
+                </tbody>
             </table>
             <button className="toggle" onClick={() => toggleTodo(todo.id)}>Toggle Status</button>
             <Link to={"/"}><button className="delete" onClick={() => deleteTodo(todo.id)}>Delete</button></Link>

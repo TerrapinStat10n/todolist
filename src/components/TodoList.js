@@ -7,6 +7,7 @@ import Details from './Details';
 
 const TodoList = ({allTodos}) => (
   <table className="table">
+      
       <th className="top-th">Todo</th>
       <th className="top-th">Status</th>
       <th className="top-th">Added On</th>

@@ -13,7 +13,7 @@ const VisibilityFilters = ({ activeFilter, setFilter }) => {
         return (
           <button className="btn" id={currentFilter}
             key={`visibility-filter-${currentFilter}`}
-            class={cx(
+            className={cx(
               "filter",
               currentFilter === activeFilter && "filter--active"
             )}
