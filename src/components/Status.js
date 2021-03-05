@@ -10,7 +10,6 @@ const Status = ({ todo, toggleTodo }) => (
 </li>
 );
 
-// export default Todo;
 export default connect(
   null,
   { toggleTodo }

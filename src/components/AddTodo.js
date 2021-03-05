@@ -13,7 +13,7 @@ class AddTodo extends React.Component {
   };
 
   handleAddTodo = () => {
-    this.props.addTodo(this.state.input, new Date().toUTCString());
+    this.props.addTodo(this.state.input, new Date().toDateString());
     this.setState({ input: "" });
   };
 
@@ -36,4 +36,3 @@ export default connect(
   null,
   { addTodo }
 )(AddTodo);
-// export default AddTodo;

@@ -30,7 +30,6 @@ const Todo = ({ todo, toggleTodo }) => (
 </tbody>
 );
 
-// export default Todo;
 export default connect(
   null,
   { toggleTodo }

@@ -1,10 +1,9 @@
 import React from 'react';
 import '../../src/details.css'
-import { connect } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
 
 const Details = ({ allTodos, toggleTodo, deleteTodo }) => {
-    //const todo = todos.byIds.keys.map(todo => ());
+    
     const { id } = useParams();
     const todo = allTodos.find((todo) => todo.id === parseInt(id));
 
@@ -42,5 +41,4 @@ const Details = ({ allTodos, toggleTodo, deleteTodo }) => {
     )
 };
 
-//export default connect(toggleTodo, deleteTodo)(Details);
 export default Details;

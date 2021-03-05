@@ -2,8 +2,8 @@ import { ADD_TODO, TOGGLE_TODO, DELETE_TODO } from "../actionTypes";
 
 const initialState = [{
   id: 0,
-  content: "Content",
-  date: new Date().toISOString(),
+  content: "Add Todos!",
+  date: new Date().toDateString(),
   completed: false  
 }];
 
