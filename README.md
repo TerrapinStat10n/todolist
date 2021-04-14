@@ -23,11 +23,15 @@
 ## Once installed, enter this command, to launch the project locally:
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm start
 
-## Contact
+
+
+## Contact:
 ### Casey Bloom
 ### CaseyBloom@gmail.com
 
+
 ## Project Link: https://todolist-bloom.herokuapp.com/
+
 
 ## Acknowledgements:
 ### This was a project that I completed as part of the program with Tech IS.
