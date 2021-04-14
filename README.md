@@ -12,7 +12,7 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git clone https://github.com/TerrapinStat10n/todolist.git
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. If not already installed, installed Node.js using the installer provided on their website
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <style="margin: auto">https://nodejs.org/en/ </style>
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p style="text-align: center;"> https://nodejs.org/en/ </p>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. In project folder, run command: 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npx install react
