@@ -1,7 +1,7 @@
 # About the Todo List project
 
 ## Built With
-#### React, Redux, HTML, CSS, JavaScript 
+####         React, Redux, HTML, CSS, JavaScript 
 
 ## Dependencies
 #### Node.js, React, React-Redux, Redux
