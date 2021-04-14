@@ -26,12 +26,12 @@
 
 
 ## Contact:
-### Casey Bloom
-### CaseyBloom@gmail.com
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Casey Bloom
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CaseyBloom@gmail.com
 
 
 ## Project Link: https://todolist-bloom.herokuapp.com/
 
 
 ## Acknowledgements:
-### This was a project that I completed as part of the program with Tech IS.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was a project that I completed as part of the program with Tech IS.
