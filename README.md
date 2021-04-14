@@ -8,8 +8,8 @@
 
 # Installation -- To get a local copy up and running follow these simple steps:
 
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Clone the repo
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/TerrapinStat10n/todolist.git
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Clone the repo, using the command:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git clone https://github.com/TerrapinStat10n/todolist.git
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. If not already installed, installed Node.js using the installer provided on their website
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ttps://nodejs.org/en/
