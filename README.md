@@ -20,14 +20,14 @@
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. In project folder, run command:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm install react-redux redux
 
-# Once installed, enter this command, to launch the project locally:
+## Once installed, enter this command, to launch the project locally:
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm start
 
-Contact
-Casey Bloom
-CaseyBloom@gmail.com
+## Contact
+### Casey Bloom
+### CaseyBloom@gmail.com
 
-Project Link: https://todolist-bloom.herokuapp.com/
+## Project Link: https://todolist-bloom.herokuapp.com/
 
-Acknowledgements:
-This was a project that I completed as part of the program with Tech IS.
+## Acknowledgements:
+### This was a project that I completed as part of the program with Tech IS.
